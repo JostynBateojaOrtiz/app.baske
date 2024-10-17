@@ -1,0 +1,54 @@
+.botones{
+    margin: none;
+    display: block;
+    float: left;
+    position: relative;
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    background:rgb(3, 38, 141);
+    box-shadow: inset 0px -5px 0px 0px rgba(247, 245, 245, 0.25);
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #19ff25;
+    text-transform: uppercase;
+    font-size: .90em;
+    color: rgb(14, 127, 226); 
+    
+
+}
+.comtenedor{
+    justify-content: left;
+}
+
+header img{
+    margin-left: 10px;
+    width: 15%;
+    height: 80%;
+}
+
+.dd{
+    
+    width: 100%;
+    background-color: aqua;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-style: italic;
+    font-weight: bold;
+    border: none; 
+    font-size: 36px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-right: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
